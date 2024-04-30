@@ -9,7 +9,6 @@
  * Name: 2.2.c
  * Purpose: learning C
  * Author: dontgetmad
- * Copyright (c) 2024 Author. All Rights Reserved.
 */
 
 #include <stdio.h>
