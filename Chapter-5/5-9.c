@@ -35,10 +35,10 @@ int main(void) {
   int day_2, month_2, year_2;
   int second_date_total_days;
 
-  printf("Enter first date (dd/mm/yyy): ");
+  printf("Enter first date (dd/mm/yy): ");
   scanf("%d/%d/%d", &day_1, &month_1, &year_1);
 
-  printf("Enter second date (dd/mm/yyy): ");
+  printf("Enter second date (dd/mm/yy): ");
   scanf("%d/%d/%d", &day_2, &month_2, &year_2);
 
   first_date_total_days = day_1 + ((month_1 * 30) + (year_1 * 365));
