@@ -14,7 +14,7 @@
 
 
 /*
- * Name: 6.8.c
+ * Name: 6.9.c
  * Purpose: learning C
  * Author: dontgetmad
 */
