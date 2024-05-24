@@ -1,5 +1,5 @@
 CC = cc
-CFLAGS = -wall -Wextra -fsanitizer=address,undefined -g
+CFLAGS = -Wall -Wextra -fsanitize=address,undefined -g
 
 main: main.c
 	$(CC) $(CFLAGS) main.c -o main
