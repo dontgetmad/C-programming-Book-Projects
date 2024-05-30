@@ -21,7 +21,7 @@
 /*
  * Name: 8-7.c
  * Purpose: learning C
- * Author: dontgetmad
+ * Author: williemhgherman
  */
 
 #include <ctype.h>
