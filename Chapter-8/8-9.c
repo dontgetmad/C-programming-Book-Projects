@@ -30,7 +30,7 @@
 
 
 /*
- * Name: 8-8.c
+ * Name: 8-9.c
  * Purpose: learning C
  * Author: dontgetmad
 */
