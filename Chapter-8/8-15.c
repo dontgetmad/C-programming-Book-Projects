@@ -88,3 +88,44 @@ int main(void) {
 
   return 0;
 }
+
+// Better solution or easier to read
+#include <ctype.h>
+#include <stdio.h>
+
+#define ARR_SIZE 80
+
+int main(void) {
+    int shift_amount = 0, count = 0, i;
+    char ch;
+    char input_sentence[ARR_SIZE] = {0};
+
+    printf("Enter a message to be encrypted: ");
+    while ((ch = getchar()) != '\n' && count < ARR_SIZE) {
+        input_sentence[count++] = ch;
+    }
+
+    printf("Enter shift amount (1-25): ");
+    scanf("%d", &shift_amount);
+
+    if (shift_amount < 1 || shift_amount > 25) {
+        printf("Invalid shift amount. Please enter a value between 1 and 25.\n");
+        return 1;
+    }
+
+    printf("Encrypted message: ");
+    for (i = 0; i < count; i++) {
+        ch = input_sentence[i];
+        if (isalpha(ch)) {
+            char base = islower(ch) ? 'a' : 'A';
+            ch = (ch - base + shift_amount) % 26 + base;
+        }
+        putchar(ch);
+    }
+    printf("\n");
+
+    return 0;
+}
+
+
+
