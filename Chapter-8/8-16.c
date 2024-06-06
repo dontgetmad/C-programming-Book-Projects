@@ -79,3 +79,39 @@ int main(void) {
   printf("\n");
   return 0;
 }
+
+// A better more readabile solution
+#include <ctype.h>
+#include <stdio.h>
+
+#define ARR_SIZE 45
+
+int main(void) {
+    char ch;
+    int i, alphabet_occurances[26] = {0};
+
+    printf("Enter first word: ");
+    while ((ch = getchar()) != '\n') {
+        if (isalpha(ch)) {
+            alphabet_occurances[tolower(ch) - 'a']++;
+        }
+    }
+
+    printf("Enter second word: ");
+    while ((ch = getchar()) != '\n') {
+        if (isalpha(ch)) {
+            alphabet_occurances[tolower(ch) - 'a']--;
+        }
+    }
+
+    for (i = 0; i < 26; i++) {
+        if (alphabet_occurances[i] != 0) {
+            printf("The words are not anagrams.\n");
+            return 0;
+        }
+    }
+
+    printf("The words are anagrams.\n");
+    return 0;
+}
+
