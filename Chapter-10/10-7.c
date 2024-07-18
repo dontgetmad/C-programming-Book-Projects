@@ -1,5 +1,5 @@
-// Note to future self, the code I wrote doesn't necessary use the functions specified but the question, instead I took a little detor and used
-// statements rather than a multi-dimensional array. I don't want to spend 5 hrs on this questions, also, I'm eager to start the next chapter on pointers. 
+// Note to future self, the code I wrote doesn't necessary use the functions specified by the question, instead I took a little detor and used
+// switch statements rather than a multi-dimensional array. I don't want to spend 5 hrs on this question, also, I'm eager to start the next chapter on pointers. 
 // Hopefully Tomorrow.
 
 /*
