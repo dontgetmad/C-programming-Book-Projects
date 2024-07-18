@@ -1,3 +1,7 @@
+// Note to future self, the code I wrote doesn't necessary use the functions specified but the question, instead I took a little detor and used
+// statements rather than a multi-dimensional array. I don't want to spend 5 hrs on this questions, also, I'm eager to start the next chapter on pointers. 
+// Hopefully Tomorrow.
+
 /*
 Write a program that prompts the user for a number and then displays the number, using characters to simulate the effect of a seven-segment display:
 
