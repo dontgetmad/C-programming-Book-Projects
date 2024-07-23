@@ -1,4 +1,4 @@
-All content in this repository is from working throught C Programming: A Modern Approach (2nd Edition) by K.N.King
+All content in this repository is from working through C Programming: A Modern Approach (2nd Edition) by K.N.King Textbook.
 
 Where to get:
 
