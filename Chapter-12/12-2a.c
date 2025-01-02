@@ -1,5 +1,5 @@
 /*
- * name: 12-2.c
+ * name: 12-2a.c
  * purpose: learning c
  * author: dontgetmad
 */
